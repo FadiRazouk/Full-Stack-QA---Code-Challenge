@@ -2,6 +2,7 @@
   "name": "QA challenge",
   "version": "1.0.0",
   "dependencies": {
+    "@types/node": "^20.10.1",
     "cypress": "13.4.0"
   },
   "scripts": {
@@ -9,7 +10,5 @@
     "cypress:gui": "cypress run --browser chrome --no-exit"
   },
   "author": "Fadi Razouk",
-  "license": "ISC",
-  "devDependencies": {
-  }
+  "license": "ISC"
 }
