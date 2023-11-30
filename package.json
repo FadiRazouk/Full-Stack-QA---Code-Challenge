@@ -2,9 +2,6 @@
   "name": "QA challenge",
   "version": "1.0.0",
   "dependencies": {
-    "@babel/core": "^7.11.0",
-    "eslint": "7.21.0",
-    "eslint-plugin-cypress": "^2.12.1",
     "cypress": "13.4.0"
   },
   "scripts": {
@@ -16,6 +13,5 @@
   "author": "Fadi Razouk",
   "license": "ISC",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.3"
   }
 }
