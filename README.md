@@ -40,3 +40,7 @@ A step by step series of examples that tell you how to run tests with a gui.
 /Full-Stack-QA-Code-Challenge> npm install
 /Full-Stack-QA-Code-Challenge> npm run cypress:test-headless
 ```
+
+- You can also check the .html report included in the code or by going to the CI/CD run on github-actions in the link below :
+
+https://github.com/FadiRazouk/Full-Stack-QA-Code-Challenge/actions/runs/7055932407/job/19207142947?pr=1
