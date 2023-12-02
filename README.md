@@ -44,3 +44,17 @@ A step by step series of examples that tell you how to run tests with a gui.
 - You can also check the .html report included in the code or by going to the CI/CD run on github-actions in the link below :
 
 https://github.com/FadiRazouk/Full-Stack-QA-Code-Challenge/actions/runs/7055932407/job/19207142947?pr=1
+
+- To run API test you should have the following: Maven,Java
+
+
+- To run API test you should enter the following commands:
+
+```bash
+> git clone git@github.com:fadirazouk/Full-Stack-QA-Code-Challenge.git
+> cd Full-Stack-QA-Code-Challenge
+> cd API-Testing
+/API-Testing> mvn test
+```
+
+- For the API testing report it can be found in target > surefire-reports > com.seeratask.app.AppTest.
