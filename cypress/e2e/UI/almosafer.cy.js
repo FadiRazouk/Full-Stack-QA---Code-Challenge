@@ -1,7 +1,7 @@
 import { navigation } from "../../src/steps/navigation";
 import { searchPage } from "../../src/steps/searchPage";
 import { resultPage } from "../../src/steps/resultPage";
-import { utils } from "../../src/utils";
+
 const locators = require("../../src/locators/index");
 
 describe("almosafer UI test", () => {
@@ -65,12 +65,6 @@ describe("almosafer UI test", () => {
         });
 
         it("Verify the price of the first listed flight when cheapest filter option is turned on matches the minimum range in the price filter, @ID: 6", () => {
-                cy.on("uncaught:exception", (e, runnable) => {
-                        console.log("error", e);
-                        console.log("runnable", runnable);
-                        return false;
-                });
-
                 navigation.navigateToHomePage();
                 searchPage.byPassPreferredCountry();
                 searchPage.verifyCurrentUrl("/en");
